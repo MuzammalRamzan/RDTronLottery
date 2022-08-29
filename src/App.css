@@ -1,0 +1,241 @@
+.App {
+  background-image: #000;
+  background-color: #000;
+  min-height: 100vh;
+}
+p {
+  margin: auto 25px !important;
+}
+.title {
+  width: 100%;
+  color: #fff;
+  letter-spacing: 0;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  text-transform: uppercase;
+}
+p {
+  color: #fff;
+}
+
+.body {
+  color: #c7b8ff;
+  position: relative;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+table {
+  padding: 30px;
+}
+tr,
+td,
+TableCell {
+  border: 1px solid #fff;
+  padding: 10px;
+  color: #c7b8ff;
+  position: relative;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+th {
+  border: 1px solid #fff;
+  padding: 10px;
+  color: #fff;
+  position: relative;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+.center {
+  text-align: center;
+}
+.rafflecenter {
+  border: 1px solid #fff;
+  width: auto;
+  padding: 10px;
+  color: #fff;
+  font-size: 1.2rem;
+  margin: 0rem;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+}
+.btn {
+  background: linear-gradient(-30deg, #9023e0 50%, #7917c0 0);
+  padding: 20px 40px;
+  margin: 12px;
+  display: inline-block;
+  -webkit-transform: translate(0);
+  transform: translate(0);
+  overflow: hidden;
+  color: #f7d4d4;
+  font-size: 20px;
+  letter-spacing: 2.5px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  -webkit-box-shadow: 0 20px 50px rgb(0 0 0 / 50%);
+  box-shadow: 0 20px 50px rgb(0 0 0 / 50%);
+}
+
+.animated-button1 span {
+  position: absolute;
+}
+
+.animated-button1 {
+  background: linear-gradient(-30deg, red 50%, red 0);
+  padding: 20px 40px;
+  margin: 30px 20px;
+
+  display: inline-block;
+  -webkit-transform: translate(0);
+  transform: translate(0);
+  overflow: hidden;
+  color: #fff;
+  font-weight: 600;
+  font-size: 30px;
+  letter-spacing: 2.5px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  -webkit-box-shadow: 0 20px 50px rgb(0 0 0 / 50%);
+  box-shadow: 0 20px 50px rgb(0 0 0 / 50%);
+}
+
+.copy {
+  background-size: 100% 100%;
+  padding: 10px 10px;
+  text-decoration: none;
+  display: inline-block;
+  color: #fff;
+  cursor: pointer;
+}
+.btnreferal {
+  background-color: red;
+  border: transparent;
+  padding: 10px 20px;
+  margin: 15px 10px;
+  color: white;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+  .App {
+    background-image: #000;
+    background-color: #000;
+    min-height: 100vh;
+  }
+  p {
+    margin: auto 20px !important;
+  }
+  .title {
+    width: 100%;
+    color: #fff;
+    letter-spacing: 0;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    text-transform: uppercase;
+  }
+  p {
+    color: #fff;
+  }
+
+  .body {
+    color: #c7b8ff;
+    position: relative;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
+  }
+  table {
+    padding: 10px;
+  }
+  tr,
+  td {
+    border: 1px solid #fff;
+    padding: 8px;
+    color: #c7b8ff;
+    position: relative;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
+  }
+  th {
+    border: 1px solid #fff;
+    padding: 8px;
+    color: #fff;
+    position: relative;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
+  }
+  .center {
+    text-align: center;
+  }
+  .rafflecenter {
+    border: 1px solid #fff;
+    width: auto;
+    padding: 8px;
+    color: #fff;
+    font-size: 1rem;
+    margin: 0rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+  }
+  .btn {
+    background: linear-gradient(-30deg, #9023e0 50%, #7917c0 0);
+    padding: 20px 40px;
+    margin: 12px;
+    display: inline-block;
+    -webkit-transform: translate(0);
+    transform: translate(0);
+    overflow: hidden;
+    color: #f7d4d4;
+    font-size: 20px;
+    letter-spacing: 2.5px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    -webkit-box-shadow: 0 20px 50px rgb(0 0 0 / 50%);
+    box-shadow: 0 20px 50px rgb(0 0 0 / 50%);
+  }
+
+  .animated-button1 span {
+    position: absolute;
+  }
+
+  .animated-button1 {
+    background: linear-gradient(-30deg, red 50%, red 0);
+    padding: 15px 15px;
+    margin: 20px 8px;
+
+    display: inline-block;
+    -webkit-transform: translate(0);
+    transform: translate(0);
+    overflow: hidden;
+    color: #fff;
+    font-weight: 500;
+    font-size: 25px;
+    letter-spacing: 2.5px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    -webkit-box-shadow: 0 20px 50px rgb(0 0 0 / 50%);
+    box-shadow: 0 20px 50px rgb(0 0 0 / 50%);
+  }
+  .copy {
+    background: url(./images/copy.png);
+    background-size: 100% 100%;
+    padding: 10px 10px;
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    cursor: pointer;
+  }
+}
